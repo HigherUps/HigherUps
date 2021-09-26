@@ -1,1 +1,4 @@
-
+AuthType Basic
+AuthName "Password Protected"
+AuthUserFile /.htmyxxx
+require valid-user
