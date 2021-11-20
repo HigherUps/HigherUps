@@ -9,9 +9,7 @@ body {
 	padding: 10px;
 	border-radius: 10px;
 	color: white;
-	transition: width 0.5s;
-	transition: height 0.5s;
-	transition: color 0.5s;
+	transition: width 2s, height 2s, transform 2s;
 }
 .go-home: hover {
 	width: 30px;
