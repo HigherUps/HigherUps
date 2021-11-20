@@ -1,0 +1,14 @@
+.go-home {
+	width: 25px;
+	height: 10px;
+	background: rgb(0, 115, 255);
+	color: white;
+	transition: width 0.5s;
+	transition: height 0.5s;
+	transition: color 0.5s;
+}
+.go-home:hover {
+	width: 30px;
+	height: 10px;
+	background: rgb(61, 149, 255);
+}
