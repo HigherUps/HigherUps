@@ -1,8 +1,4 @@
 <html>
-  <head>
-    <title>Files -- TheHigherUps</title>
-    <link rel="icon" type="image/png" href="/1.png" sizes="16x16">
-  </head>
   <body>
     <script>
       (async () => {
@@ -10,17 +6,12 @@
         const data = await response.json();
         let htmlString = '<ul>';
         for (let file of data) {
-          htmlString += `<li><a href="${file.name}"></a></li>`;
+          htmlString += `<li><a href="${file.path}">${file.name}</a></li>`;
         }
         htmlString += '</ul>';
         document.getElementsByTagName('body')[0].innerHTML = htmlString;
       })()
     </script>
-    <div>
-      <!---##Not hiding among the files. Somewhere else. Not here--->
-      <p style="visibility: hidden;"> 
-	Not hiding among the files. Somewhere else. Not here 
-</p> 
-    </div>
+	   <!---##Not hiding among the files. Somewhere else. Not here--->
   <body>
 </html>
