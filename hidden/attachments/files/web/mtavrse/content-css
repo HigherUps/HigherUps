@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;700&display=swap');
 /* Font Weights - 300, 700*/
+@media screen and (max-width: 1100px) {
+    div.annc {
+      height: 200px;
+    }
+  }
+@media screen and (max-width: 1500px) {
+    main {
+        width: 95%;
+        min-width: 95%;
+    }
+}
+
+
+
+
 * {
 	margin: 0;
 	padding: 0;
@@ -12,6 +27,9 @@ body {
 	padding: 0px;
 }
 .header {
+    position: sticky;
+    top: 0;
+    left: 0;
 	height: 75px;
 	width: 100%;
 	background: #c7e8fc;
@@ -24,13 +42,13 @@ body {
 	display: table;
 }
 .header-name {
-	padding-top: 10px;
+	padding-top: 18px;
 	display: table-cell;
 	float: left;
 	vertical-align: middle;
 }
 nav {
-	padding-top: 10px;
+	padding-top: 15px;
 	height: 100%;
 	float: right;
 }
@@ -46,6 +64,7 @@ nav a {
 	color: black;
 	padding: 10px 20px;
 	text-decoration: none;
+    font-size: 20px;
 	background: #e0ffe9;
 	border-radius: 25%;
 }
@@ -55,7 +74,44 @@ nav a:hover {
 	transition: background 0.5s;
 	transition: all 0.5 ease-out;
 }
-
+#warn, 
+#warn2 {
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+}
+main {
+    width: 75%;
+    height: 100%;
+    min-height: 250px;
+    margin: 25px auto;
+    background-color: #b9dff8;
+    border-radius: 25px;
+}
+article {
+    padding: 15px;
+    margin-bottom: 5rem;
+}
+article h1 {
+    font-size: 35px;
+    text-decoration: underline;
+}
+article p {
+    font-size: 25px;
+}
+#join {
+    text-decoration: underline;
+    color: black;
+    font-size: 25px;
+}
+#join:hover {
+    color: white;
+    text-decoration: underline dashed;
+    font-weight: 800;
+}
+#join:visited {
+    color: black;
+}
 
 
 
@@ -63,7 +119,7 @@ nav a:hover {
 
 /* ANNC BANNER */
 .annc {
-	height: 50px;
+	height: 95px;
 	width: 100%;
 	background: #fcc419;
 	display: block;
