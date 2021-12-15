@@ -5,18 +5,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>TheHigherUps Metaverse</title>
 	<link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
 <div class="annc">
 	<div class="annc-content">
-		<h1>Under Constuction</h1>
+		<span class="material-icons"id="warn">warning</span><h1>This Website Is Under Construction. Please Be Patient As We Develop This Site.</h1><span class="material-icons" id="warn2">warning</span>
 	</div>
 </div>
 <!-- Nav Bar -->
 <div class="header">
 	<div class="header-content">
 		<div class="header-name">
-			<h1>Cool Beans Bro</h1>
+			<h1>TheHigherUps Metaverse</h1>
 		</div>
 		<nav>
 			<li><span><a href="about">About</a></span></li>
@@ -24,9 +26,15 @@
 		</nav>
 	</div>
 </div>
-
+<main>
+    <section class="main-content">
+        <article id="welcome">
+            <h1>Welcome to the Metaverse</h1>
+            <br>
+            <p>Welcome to the Metaverse of TheHigherUps. Here at TheHigherUps we already know everthing and we would love to share all off the knowledge we know with you. You may be asking yourself why we would do this, and the simple answer is that we want to spread the knowledge of everthing to everyone. Our goal is to provide the people with all the knowledge that they want or all the knowledge that they need, however there is one catch. Only select people that sign up will be allowed access to all of the knowledge that we know. If your would like to try to access all of the power and knowledge, visit the 'join' page or click <a href="join" id="join">HERE</a> to get more information about the joining process, just remember that only select people will be invited and we have the right to deny access to anyone who seems unfit to handle such knowledge and power that we hold. If you do get accpected, you must not share any information to other people. That would end up being bad for you, so don't do it.</p>
+        </article>
+    </section>
+</main>
 
 </body>
 </html>
-
-
