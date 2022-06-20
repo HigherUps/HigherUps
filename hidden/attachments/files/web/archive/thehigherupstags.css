@@ -1,0 +1,9 @@
+thehigherups {
+  display: none;
+}
+thehigherups * {
+  display: none;
+}
+thehigherups > * {
+  display: none;
+}
