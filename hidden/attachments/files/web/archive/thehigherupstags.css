@@ -1,9 +1,34 @@
 thehigherups {
-  display: none;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 15px;
+    left: 0;
+    width: 60px;
+    height: 50px;
+    border-radius: 0 5px 5px 0;
+    background-color:hsl(0, 0%, 13%);
 }
-thehigherups * {
-  display: none;
+thehigherups:hover {
+    cursor: help;
 }
-thehigherups > * {
-  display: none;
+thehigherupsdata {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 0 22.5px 39.0px 22.5px;
+    border-color: transparent transparent #ffffff transparent;
+}
+thehigherupsdata > *  {
+    display: none;
+}
+thehigherupsseal {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 12.5px 21.7px 12.5px;
+    border-color: transparent transparent #212121 transparent;
 }
